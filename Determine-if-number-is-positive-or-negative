@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int integer;
+
+        System.out.println("Enter an integer");
+        Scanner my_integer = new Scanner(System.in);
+        integer = my_integer.nextInt();
+
+        if (integer == 0){
+            System.out.println("This is 0");
+        } else if (integer > 0) {
+           System.out.println("This is a positive integer");
+        }
+       else {
+           System.out.println("This is a negative integer");
+        }
